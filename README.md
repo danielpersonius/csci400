@@ -14,15 +14,17 @@ demos).
 
 Many of the tools we use require the Java JDK behind the scenes.
 On Ubuntu, the Java JDK can be installed like this:
-
+```
 sudo apt-get install default-jdk
+```
 
 # Scala Installation
 
 We will use the Scala programming language in this class.
 On Ubuntu, Scala can be installed like this:
-
+```
 sudo apt-get install scala
+```
 
 # SBT Installation
 
@@ -31,8 +33,10 @@ management, unit testing, etc. for Scala (similar to
 Ant or Maven for Java).
 On Ubuntu, SBT can be installed like this:
 
+```
 sudo apt-get install gnupg-curl
 echo "deb https://dl.bintray.com/sbt/debian /" | sudo tee -a /etc/apt/sources.list.d/sbt.list
 sudo apt-key adv --keyserver hkps://keyserver.ubuntu.com:443 --recv 2EE0EA64E40A89B84B2DF73499E82A75642AC823
 sudo apt-get update
 sudo apt-get install sbt
+```
